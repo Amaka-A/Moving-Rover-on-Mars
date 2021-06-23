@@ -8,11 +8,11 @@ var rover_x=10;
 var rover_y=10;
 function add() {
     background_imgTag=new Image();
-    background_imgTag.onload=uploadrover;
+    background_imgTag.onload=uploadBackground();
     background_imgTag.src=background_image;
 
     rover-imgTag=new Image();
-    rover-imgTag.onload=uploadrover;
+    rover-imgTag.onload=uploadrover();
     rover_imgTag.src=rover_image;
 
 }
