@@ -11,8 +11,8 @@ function add() {
     background_imgTag.onload=uploadBackground();
     background_imgTag.src=background_image;
 
-    rover-imgTag=new Image();
-    rover-imgTag.onload=uploadrover();
+    rover_imgTag=new Image();
+    rover_imgTag.onload=uploadrover();
     rover_imgTag.src=rover_image;
 
 }
